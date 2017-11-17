@@ -51,13 +51,12 @@
             android:layout_marginRight="10dp"/>
 
         <Spinner
+            android:id="@+id/currency_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/currency_spinner"
-            android:gravity="center_horizontal"
-            android:spinnerMode="dropdown"
             android:dropDownSelector="@color/fontColour"
-            />
+            android:gravity="center_horizontal"
+            android:spinnerMode="dropdown" />
 
 
     </LinearLayout>
